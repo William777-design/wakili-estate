@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Wakili Real Estate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Wakili <span>Real Estate</span></div>
+      <nav class="main-nav">
+        <a href="#hero">Home</a>
+        <a href="#carousel">Properties</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero animate-on-scroll">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Find your dream home with <span>Wakili</span></h1>
+          <p>Trusted residential and commercial real estate in your neighborhood. Fast, reliable, and tailored to you.</p>
+          <div class="cta">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#carousel" class="btn btn-outline">View properties</a>
+          </div>
+        </div>
+        <div class="hero-image animate-on-scroll">
+          <div class="img-wrap" data-placeholder="https://images.unsplash.com/photo-1598928506312-7a7f2d3c3f6f?auto=format&fit=crop&w=40&q=10">
+            <img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1598928506312-7a7f2d3c3f6f?auto=format&fit=crop&w=1200&q=60" alt="Modern house exterior" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="carousel" class="carousel-section animate-on-scroll">
+      <div class="container">
+        <h2>Featured Properties</h2>
+        <div class="carousel" role="region" aria-label="Property photos carousel">
+          <button class="carousel-btn prev" aria-label="Previous">◀</button>
+          <div class="carousel-track-container">
+            <ul class="carousel-track">
+              <li class="slide"><div class="img-wrap" data-placeholder="https://images.unsplash.com/photo-1560184897-6a9e7f303b2b?auto=format&fit=crop&w=40&q=10"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1560184897-6a9e7f303b2b?auto=format&fit=crop&w=1200&q=60" alt="Property 1" loading="lazy"></div></li>
+              <li class="slide"><div class="img-wrap" data-placeholder="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=40&q=10"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=60" alt="Property 2" loading="lazy"></div></li>
+              <li class="slide"><div class="img-wrap" data-placeholder="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=40&q=10"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=60" alt="Property 3" loading="lazy"></div></li>
+              <li class="slide"><div class="img-wrap" data-placeholder="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=40&q=10"><img class="lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=60" alt="Property 4" loading="lazy"></div></li>
+            </ul>
+          </div>
+          <button class="carousel-btn next" aria-label="Next">▶</button>
+          <div class="carousel-dots" aria-hidden="false"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+      <div class="container">
+        <h2>What our clients say</h2>
+        <div class="testimonials">
+          <blockquote class="testimonial animate-on-scroll">
+            <p>"Wakili helped us find the perfect home within weeks. Professional, responsive, and insightful."</p>
+            <cite>— Amina K.</cite>
+          </blockquote>
+
+          <blockquote class="testimonial animate-on-scroll">
+            <p>"Great service and transparent pricing. I sold my property quickly and at a great price."</p>
+            <cite>— John M.</cite>
+          </blockquote>
+
+          <blockquote class="testimonial animate-on-scroll">
+            <p>"A fantastic team. They walked us through every step and made the process painless."</p>
+            <cite>— Fatima R.</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section animate-on-scroll">
+      <div class="container">
+        <h2>Contact us</h2>
+        <p>Ready to get started? Send us a message and our team will reply within one business day.</p>
+        <form class="contact-form" action="#" onsubmit="return false;">
+          <input type="text" placeholder="Your name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Message" rows="4" required></textarea>
+          <button class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <strong>Wakili Real Estate</strong> — Trusted since 2026</p>
+      <p class="socials">Follow us: <a href="#">Instagram</a> · <a href="#">Facebook</a></p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
